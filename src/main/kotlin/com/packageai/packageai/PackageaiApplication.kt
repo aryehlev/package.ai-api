@@ -18,13 +18,3 @@ fun main(args: Array<String>) {
 
 }
 
-//
-//@EventListener(ApplicationReadyEvent::class)
-//fun setUpDataBase() {
-//	val orderRepository: OrderAdressRepo
-//
-//	orderRepository.importFIle()
-//
-//
-//
-//}

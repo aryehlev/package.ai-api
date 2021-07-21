@@ -37,24 +37,3 @@ class ProductController() {
        return ResponseEntity.ok(dh.getNClosest(address , num))
    }
    }
-//        var direction = Sort.unsorted()
-//
-//        if (sort == "asc") {
-//            direction = Sort.by(Sort.Direction.ASC, "price")
-//        } else if (sort == "desc") {
-//            direction = Sort.by(Sort.Direction.DESC, "price")
-//        }
-//
-//        val perPage = 9
-//        val total = this.productRepository.countSearch(s)
-//
-//        return ResponseEntity.ok(
-//                PaginatedResponse(
-//                        data = this.productRepository.search(s, PageRequest.of(page - 1, perPage, direction)),
-//                        total,
-//                        page,
-//                        last_page = (total / perPage) + 1
-//                )
-//        )
-//    }
-//}
